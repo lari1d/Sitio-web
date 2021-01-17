@@ -1,0 +1,30 @@
+@import '@material/menu/mdc-menu';
+@import '@material/menu-surface/mdc-menu-surface';
+@import '@material/select/mdc-select';
+@import '@material/textfield/mdc-text-field';
+@import '@material/checkbox/mdc-checkbox';
+@import '@material/form-field/mdc-form-field';
+@import '@rmwc/list/collapsible-list';
+@import '@material/list/mdc-list';
+@import '@material/floating-label/mdc-floating-label';
+@import '@material/notched-outline/mdc-notched-outline';
+@import '../colors';
+
+.mdc-text-field {
+  @include mdc-text-field-fill-color($fortnightly-white);
+}
+
+.mdc-checkbox {
+  @include mdc-checkbox-container-colors($fortnightly-black, $fortnightly-white, $fortnightly-purple);
+}
+
+.product-actions {
+  .mdc-select {
+    width: 100%;
+  }
+
+  .mdc-button {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}

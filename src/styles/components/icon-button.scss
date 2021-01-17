@@ -1,0 +1,22 @@
+@import '@material/icon-button/mdc-icon-button';
+@import '../colors';
+
+.mdc-icon-button {
+  @include mdc-icon-button-ink-color($fortnightly-purple);
+}
+
+.SocialMediaShareButton {
+  display: inline-block;
+  margin-right: .5rem;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &--container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+  }
+}

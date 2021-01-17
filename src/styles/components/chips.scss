@@ -1,0 +1,9 @@
+@import '@material/chips/mdc-chips';
+@import '../colors';
+
+.mdc-chip {
+  @include mdc-chip-fill-color($fortnightly-purple);
+  @include mdc-chip-ink-color($fortnightly-black);
+
+  text-transform: uppercase;
+}

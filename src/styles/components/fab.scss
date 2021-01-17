@@ -1,0 +1,6 @@
+@import '@material/fab/mdc-fab';
+@import '../colors';
+
+.mdc-fab {
+  @include mdc-fab-container-color($fortnightly-purple);
+}

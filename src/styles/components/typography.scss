@@ -1,0 +1,22 @@
+@import '@material/typography/mdc-typography';
+@import '../colors';
+
+.mdc-typography {
+  &--overline-p {
+    padding-right: .5rem;
+    color: lighten($fortnightly-gray, 30%);
+    text-decoration: line-through;
+  }
+
+  &--headline3 {
+    &--sub {
+      color: lighten($fortnightly-gray, 20%);
+      text-align: right;
+
+      &__overline {
+        color: lighten($fortnightly-gray, 50%);
+        text-decoration: line-through;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+@import 'react-image-gallery/styles/scss/image-gallery-no-icon';
+@import '@material/elevation/mdc-elevation';
+@import '../colors';
+
+.image-gallery-thumbnail {
+  &.active {
+    @include mdc-elevation(5, lighten($fortnightly-gray, 40%), .3);
+
+    border: 3px solid transparent;
+  }
+}

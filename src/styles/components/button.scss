@@ -1,0 +1,9 @@
+@import '@material/button/mdc-button';
+@import '../colors';
+
+.mdc-button {
+  @include mdc-button-container-fill-color($fortnightly-purple);
+  @include mdc-button-ink-color($fortnightly-white);
+
+  text-transform: uppercase;
+}

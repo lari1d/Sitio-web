@@ -1,0 +1,16 @@
+@import '@material/top-app-bar/mdc-top-app-bar';
+@import '../colors';
+
+.mdc-top-app-bar {
+  background-color: $fortnightly-black;
+  color: $fortnightly-white;
+
+  .material-icons {
+    padding: 1vh;
+    color: $fortnightly-white;
+  }
+
+  .shopping-cart {
+    color: $fortnightly-white;
+  }
+}
