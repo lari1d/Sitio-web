@@ -1,0 +1,1 @@
+{"errors":[{"message":"Cannot query field \"coverVideo\" on type \"ContentfulLandingPage\". Did you mean \"coverText\"?","locations":[{"line":4,"column":5}]}]}
